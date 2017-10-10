@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         txtMesaj = (TextView) findViewById(R.id.txtMesaj);
         txtMesaj.setText(R.string.karsilama_html);
-        txtMesaj.setTextSize(28);
+        txtMesaj.setTextSize(40);
         Toast.makeText(this, "Merhaba GitHub :)", Toast.LENGTH_SHORT).show();
     }
 
