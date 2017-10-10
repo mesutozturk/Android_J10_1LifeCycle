@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">İlk Uygulamam</string>
+    <string name="karsilama">Merhaba Android Ailesi</string>
+    <string name="karsilama_html"><h1>Merhaba <b>Android</b> Ailesi</h1></string>
+</resources>
