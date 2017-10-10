@@ -11,10 +11,12 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //Buralar hep bizim
         setContentView(R.layout.activity_main);
         txtMesaj = (TextView) findViewById(R.id.txtMesaj);
         txtMesaj.setText(R.string.karsilama_html);
         txtMesaj.setTextSize(28);
+        Toast.makeText(this, "Merhaba GitHub :)", Toast.LENGTH_SHORT).show();
     }
 
     @Override
