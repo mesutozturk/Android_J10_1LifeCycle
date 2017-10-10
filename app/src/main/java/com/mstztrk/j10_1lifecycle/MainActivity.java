@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         txtMesaj.setText(R.string.karsilama_html);
         txtMesaj.setTextSize(40);
         Toast.makeText(this, "Merhaba GitHub :)", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Ben Geldim", Toast.LENGTH_SHORT).show();
     }
 
     @Override
