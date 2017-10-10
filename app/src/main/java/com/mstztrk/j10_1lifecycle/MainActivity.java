@@ -2,6 +2,7 @@ package com.mstztrk.j10_1lifecycle;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this, "Merhaba GitHub :)", Toast.LENGTH_SHORT).show();
         Toast.makeText(this, "Ben Geldim", Toast.LENGTH_SHORT).show();
         Toast.makeText(this,"MEHMET BURDA-kral long bekler",Toast.LENGTH_LONG).show();
+        Log.d("log", "onCreate: ");
     }
 
     @Override
